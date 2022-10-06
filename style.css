@@ -1,0 +1,144 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.cover{
+  background:no-repeat, linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://images.unsplash.com/photo-1506784693919-ef06d93c28d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.cover-content{
+  min-height: 100vh;
+}
+.cover-content img{
+
+  max-width: 200px;
+  border:2px solid white;
+}
+
+.about{
+  background-color: #ececec;
+}
+
+@media screen and (max-width: 760px) {
+  .cover-content h1{
+      font-size: 36px;
+      font-weight: bold;
+      padding-top: 30px;
+  }
+
+  .cover-content h6{
+      font-size: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.progress {
+  border: 1px solid #B0B0B0;
+  width: 20em;
+  border-radius: 4px;
+  box-shadow: 0 0 3px #B0B0;
+  backdrop-filter: blur(2px) brightness(101%);
+}
+
+.bar-html {
+  width: 17em;
+  background: rgb(255, 82, 1);
+  box-shadow: inset 0px 12px 1.7px #FFFFFF33;
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+}
+
+.bar-css {
+  background: rgb(11, 23, 255);
+  width: 82%;
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+}
+
+.bar-word{
+  background: rgb(56, 162, 233);
+  width: 70%;
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+}
+
+.bar-excel{
+  background: rgb(20, 85, 3);
+  width: 65%;
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+}
+
+.bar-pp{
+  background: rgb(194, 65, 6);
+  width: 80%;
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+input[type="comments"]
+{
+    width: 60%;
+    height: 100px;
+}
+
+input[type="text"]
+{
+    width: 60%;
+    height: 50px;
+}
+
+input[type="email"]
+{
+    width: 60%;
+    height: 50px;
+}
+
+input[type="number"]
+{
+    width: 60%;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+h1 {
+  font-size: 5em;
+  color: rgb(172, 172, 172);
+  text-transform: uppercase;
+}
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
